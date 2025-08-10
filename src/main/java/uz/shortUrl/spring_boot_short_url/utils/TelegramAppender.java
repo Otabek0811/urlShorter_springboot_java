@@ -13,8 +13,8 @@ import com.pengrad.telegrambot.request.SendMessage;
 public class TelegramAppender extends AppenderBase<LoggingEvent> {
 
 
-    private static final String botToken = "6611216830:AAHbav2cJPZfl4ScJkuChd0xaJLFsK4XED0";
-    private static final String chatId = "1072506938";
+    private static final String botToken = "Your Bot Token";
+    private static final String chatId = "Your Bot Chat Id";
 
     private final TelegramBot tgBot = new TelegramBot(botToken);
 
