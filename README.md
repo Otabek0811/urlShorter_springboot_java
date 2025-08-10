@@ -19,38 +19,7 @@ It allows users to generate short, shareable links from long URLs and redirect t
 - **Maven 
 
 ## 📂 Project Structure
-
-src/
-├── main / java / uz.learning.urlshortener /
-config
-controller
-dto
-entity
-mapper
-repository
-service
-utils
-resources
-application.yml
-
-│ ├── 
-
-│ │ └── 
-
-│ │ ├── 
-
-│ │ ├── /
-
-│ │ ├── /
-│ │ ├── /
-│ │ ├── /
-│ │ ├── /
-│ │ ├── /
-│ │ ├── /
-│ └── /
-│ ├── 
-│ └────────────────────────
-
+```monolith```
 
 ## 📚 API Endpoints
 
