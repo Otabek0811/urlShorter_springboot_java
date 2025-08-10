@@ -1,0 +1,87 @@
+2025-08-10 21:12:03,398 INFO      org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-08-10 21:12:03,428 INFO         org.springframework.boot.StartupInfoLogger [main] Starting SpringBootShortUrlApplication using Java 17.0.15 with PID 36861 (/Users/karimjonov/IdeaProjects/urlShorter_springboot_java/target/classes started by karimjonov in /Users/karimjonov/IdeaProjects/urlShorter_springboot_java)
+2025-08-10 21:12:03,429 INFO         org.springframework.boot.SpringApplication [main] The following 1 profile is active: "prod"
+2025-08-10 21:12:03,936 INFO .repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-10 21:12:03,961 INFO .repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2025-08-10 21:12:04,319 INFO framework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-08-10 21:12:04,325 INFO               org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:12:04,326 INFO               org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2025-08-10 21:12:04,326 INFO               org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:12:04,351 INFO               org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-08-10 21:12:04,351 INFO servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 886 ms
+2025-08-10 21:12:04,522 INFO          org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-10 21:12:04,572 INFO                              org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-10 21:12:04,594 INFO rg.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-08-10 21:12:04,724 INFO .orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-10 21:12:04,742 INFO                 com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2025-08-10 21:12:04,833 INFO                  com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c8dea0b
+2025-08-10 21:12:04,834 INFO                 com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-08-10 21:12:04,891 INFO .engine.jdbc.env.internal.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-10 21:12:05,446 INFO saction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-10 21:12:05,513 INFO framework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10 21:12:05,736 WARN e.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-10 21:12:05,761 INFO rConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-10 21:12:05,814 INFO ork.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-10 21:12:06,235 WARN nfig.annotation.web.AbstractRequestMatcherRegistry [main] One of the patterns in [v3/api-docs/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-08-10 21:12:06,489 INFO               org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:12:06,492 WARN amework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-10 21:12:06,494 INFO framework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10 21:12:06,495 INFO                 com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2025-08-10 21:12:06,496 INFO                 com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2025-08-10 21:12:06,504 INFO oconfigure.logging.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-10 21:12:06,511 ERROR rk.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-10 21:12:22,932 INFO      org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-08-10 21:12:22,949 INFO         org.springframework.boot.StartupInfoLogger [main] Starting SpringBootShortUrlApplication using Java 17.0.15 with PID 36914 (/Users/karimjonov/IdeaProjects/urlShorter_springboot_java/target/classes started by karimjonov in /Users/karimjonov/IdeaProjects/urlShorter_springboot_java)
+2025-08-10 21:12:22,957 INFO         org.springframework.boot.SpringApplication [main] The following 1 profile is active: "prod"
+2025-08-10 21:12:23,384 INFO .repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-10 21:12:23,410 INFO .repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2025-08-10 21:12:23,768 INFO framework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-08-10 21:12:23,774 INFO               org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:12:23,774 INFO               org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2025-08-10 21:12:23,775 INFO               org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:12:23,799 INFO               org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-08-10 21:12:23,799 INFO servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 818 ms
+2025-08-10 21:12:23,964 INFO          org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-10 21:12:24,003 INFO                              org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-10 21:12:24,028 INFO rg.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-08-10 21:12:24,176 INFO .orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-10 21:12:24,191 INFO                 com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2025-08-10 21:12:24,266 INFO                  com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e1b5532
+2025-08-10 21:12:24,267 INFO                 com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-08-10 21:12:24,305 INFO .engine.jdbc.env.internal.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-10 21:12:24,775 INFO saction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-10 21:12:24,809 INFO framework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10 21:12:25,033 WARN e.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-10 21:12:25,060 INFO rConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-10 21:12:25,104 INFO ork.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-10 21:12:25,509 WARN nfig.annotation.web.AbstractRequestMatcherRegistry [main] One of the patterns in [v3/api-docs/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-08-10 21:12:25,762 INFO               org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
