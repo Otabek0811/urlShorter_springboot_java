@@ -21,24 +21,34 @@ It allows users to generate short, shareable links from long URLs and redirect t
 ## 📂 Project Structure
 
 src/
-├── main/
+├── main / java / uz.learning.urlshortener /
+config
+controller
+dto
+entity
+mapper
+repository
+service
+utils
+resources
+application.yml
 
-│ ├── java/
+│ ├── 
 
-│ │ └── uz.learning.urlshortener/
+│ │ └── 
 
-│ │ ├── config/
+│ │ ├── 
 
-│ │ ├── controller/
+│ │ ├── /
 
-│ │ ├── dto/
-│ │ ├── entity/
-│ │ ├── mapper/
-│ │ ├── repository/
-│ │ ├── service/
-│ │ ├── utils/
-│ └── resources/
-│ ├── application.yml
+│ │ ├── /
+│ │ ├── /
+│ │ ├── /
+│ │ ├── /
+│ │ ├── /
+│ │ ├── /
+│ └── /
+│ ├── 
 │ └────────────────────────
 
 
