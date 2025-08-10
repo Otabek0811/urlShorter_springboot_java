@@ -22,10 +22,15 @@ It allows users to generate short, shareable links from long URLs and redirect t
 
 src/
 ├── main/
+
 │ ├── java/
+
 │ │ └── uz.learning.urlshortener/
+
 │ │ ├── config/
+
 │ │ ├── controller/
+
 │ │ ├── dto/
 │ │ ├── entity/
 │ │ ├── mapper/
